@@ -2,7 +2,7 @@ const express = require("express");
 const router = require("./router");
 const path = require("path")
 
-const PORT = 1338;
+const PORT = process.env.PORT || 1338;
 
 const app = express();
 
